@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Dice
+comment0.text=\r\n\ Dice\ is\ the\ class\ which\ represents\ the\ Dice\ in\ the\ Game.\ Rolling\ the\ dice\ would\ lead\ to\ player\ movements\ across\ the\ trail.\r\n\ It\ has\ accessor\ and\ mutator\ methods\ to\ return\ or\ update\ the\ minimum\ and\ maximum\ number\ for\ the\ dice.\r\n\ It\ also\ has\ a\ method\ to\ generate\ a\ random\ number\ between\ 2\ values\ (inclusive)\r\n\ @author\ Rohan\r\n\ @version\ 1.2\r\n
+comment1.params=
+comment1.target=Dice()
+comment1.text=\r\n\ Dice\ Constructor\r\n\ Sets\ the\ maximum\ and\ minimum\ Values\ to\ that\ of\ a\ four\ sided\ dice\r\n
+comment2.params=newMinimumValue\ newMaximumValue
+comment2.target=Dice(int,\ int)
+comment2.text=\r\n\ Dice\ Constructor\r\n\r\n\ @param\ newMinimumValue\ the\ minimum\ value\ can\ be\ generated\r\n\ @param\ newMaximumValue\ the\ maximum\ value\ can\ be\ generated\r\n
+comment3.params=
+comment3.target=int\ generateRandomNumber()
+comment3.text=\r\n\ Method\ generateRandomNumber\r\n\r\n\ @return\ a\ random\ number\ between\ the\ minimum\ and\ maximum\ values\ (inclusive)\r\n
+comment4.params=newMinimumValue
+comment4.target=void\ setMinimumValue(int)
+comment4.text=\r\n\ Method\ setMinimumValue\r\n\r\n\ @param\ newMinimumValue\ the\ minimum\ value\ that\ can\ be\ generated\r\n
+comment5.params=newMaximumValue
+comment5.target=void\ setMaximumValue(int)
+comment5.text=\r\n\ Method\ setMaximumValue\r\n\r\n\ @param\ newMaximumValue\ the\ maximum\ value\ that\ can\ be\ generated\r\n
+comment6.params=
+comment6.target=int\ getMinimumValue()
+comment6.text=\r\n\ Method\ getMinimumValue\r\n\r\n\ @return\ the\ minimum\ value\ of\ the\ dice\r\n
+comment7.params=
+comment7.target=int\ getMaximumValue()
+comment7.text=\r\n\ Method\ getMaximumValue\r\n\r\n\ @return\ the\ maximum\ value\ of\ the\ dice\r\n
+numComments=8

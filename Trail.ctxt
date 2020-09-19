@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Trail
+comment0.text=\r\n\ Trail\ is\ the\ class\ which\ represents\ the\ Trail\ in\ the\ Game.\ Trail\ consists\ of\ Nature\ Features\ on\ which\ a\ player\ might\ land.\r\n\ It\ has\ accessor\ and\ mutator\ methods\ to\ return\ or\ update\ a\ feature\ or\ many\ features.\r\n\ @author\ Rohan\r\n\ @version\ 1.2\r\n
+comment1.params=
+comment1.target=Trail()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Trail\r\n\ It\ initializes\ the\ Nature\ features\ array\ to\ length\ of\ 4\r\n
+comment2.params=
+comment2.target=NatureFeature[]\ getFeatures()
+comment2.text=\r\n\ Method\ getFeatures\r\n\r\n\ @return\ The\ array\ consisting\ of\ all\ the\ Nature\ Features\r\n
+comment3.params=featurePosition
+comment3.target=NatureFeature\ getFeature(int)
+comment3.text=\r\n\ Method\ getFeature\r\n\r\n\ @param\ featurePosition\ A\ position\ on\ the\ trail\r\n\ @return\ The\ nature\ feature,\ if\ any,\ at\ this\ position\ on\ the\ trail\r\n
+comment4.params=trailLength
+comment4.target=void\ setupValidFeatures(int)
+comment4.text=\r\n\ Method\ setupValidFeatures\r\n\ This\ method\ is\ used\ to\ setup\ the\ various\ nature\ features\ randomly\ across\ the\ trail.\r\n\ No\ 2\ features\ can\ be\ placed\ on\ the\ same\ position.\r\n\ @param\ trailLength\ the\ length\ of\ the\ trail\r\n
+comment5.params=newFeatures
+comment5.target=void\ setFeatures(NatureFeature[])
+comment5.text=\r\n\ Method\ setFeatures\r\n\r\n\ @param\ newFeatures\ A\ new\ array\ of\ Nature\ Features\r\n
+comment6.params=index\ newFeaturePosition\ newFeatureType\ newSpacePenalty
+comment6.target=void\ setFeature(int,\ int,\ java.lang.String,\ int)
+comment6.text=\r\n\ Method\ setFeature\r\n\r\n\ @param\ index\ The\ index\ of\ the\ array\r\n\ @param\ newFeaturePosition\ The\ position\ of\ the\ feature\ on\ the\ trail\r\n\ @param\ newFeatureType\ The\ type\ of\ the\ feature\ on\ the\ trail\r\n\ @param\ newSpacePenalty\ The\ space\ penalty\ for\ landing\ on\ this\ feature\ on\ the\ trail\r\n
+numComments=7
